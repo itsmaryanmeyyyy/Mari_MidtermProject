@@ -10,7 +10,7 @@ import {
   Platform,
 } from "react-native";
 
-export default function App() {
+export default function ChatBoxApp() {
   const [message, setMessage] = useState("");
   const [comment, setComment] = useState("");
   const [comments, setComments] = useState([]);
@@ -260,4 +260,4 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: "#333",
   },
-});
+});>
